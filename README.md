@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# FortiFusion DSA Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the FortiFusion Data Structures and Algorithms Web App! This project is built with [Create React App](https://github.com/facebook/create-react-app) and provides a platform to explore various data structures and algorithms.
 
-## Available Scripts
+## Author
 
-In the project directory, you can run:
+- **Harsh Khambra**
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Learn More](#learn-more)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get started with the project, follow these instructions:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/fortifusion-dsa-web-app.git
 
-### `npm run build`
+cd fortifusion-dsa-web-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
+npm start
+Open http://localhost:3000 in your browser to view the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The page will automatically reload if you make changes to the code. Any lint errors will be displayed in the console.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Available Scripts
+In the project directory, you can run the following scripts:
 
-### `npm run eject`
+npm start
+Runs the app in development mode. Open http://localhost:3000 to view it in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm test
+Launches the test runner in interactive watch mode. See the section about running tests for more information.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run build
+Builds the app for production to the build folder. It optimizes the build for the best performance. Your app is ready to be deployed!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm run eject
+Note: This is a one-way operation. Once you eject, you can't go back!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you need more control over the build tool and configuration, you can run npm run eject. This will copy all configuration files and dependencies into your project, allowing you to customize them.
 
-## Learn More
+Features
+Explore various data structures (e.g., Arrays, Linked Lists, Stacks, Queues, Trees).
+Interactive algorithms visualizations.
+User-friendly interface designed with Tailwind CSS.
+Responsive design for mobile and desktop users.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here's a quick overview of the folder structure:
 
-### Code Splitting
+fortifusion-dsa-web-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/       # Reusable components (Header, Sidebar, etc.)
+│   ├── pages/            # Individual pages for DSA topics
+│   ├── App.js            # Main application component
+│   └── index.js          # Entry point of the application
+├── package.json
+└── README.md
+Learn More
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can learn more in the Create React App documentation.
 
-### Analyzing the Bundle Size
+To learn React, check out the React documentation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributing
+Contributions are welcome! Please read the CONTRIBUTING.md for more details on how to contribute to this project.
 
-### Making a Progressive Web App
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Instructions for Customization
+1. **Update the Repository URL**: Replace `https://github.com/yourusername/fortifusion-dsa-web-app.git` with your actual GitHub repository link.
+2. **Modify Features**: Adjust the features section as necessary to reflect your app's capabilities.
+3. **Folder Structure**: Update the folder structure to match your project's organization, if needed.
+4. **Contributing and License**: Add specific contributing guidelines and licensing information if applicable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to adjust any section further to suit your preferences!

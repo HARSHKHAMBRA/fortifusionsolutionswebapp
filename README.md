@@ -84,7 +84,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 ### Instructions for Customization
-1. **Update the Repository URL**: Replace `https://github.com/yourusername/fortifusion-dsa-web-app.git` with your actual GitHub repository link.
+1. **Update the Repository URL**: Replace `https://github.com/harshkhambra/fortifusion-dsa-web-app.git` with your actual GitHub repository link.
 2. **Modify Features**: Adjust the features section as necessary to reflect your app's capabilities.
 3. **Folder Structure**: Update the folder structure to match your project's organization, if needed.
 4. **Contributing and License**: Add specific contributing guidelines and licensing information if applicable.
